@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Returns the last node of the list.
+
 #include "libft.h"
 
 t_list	*ft_lstlast(t_list *lst)
@@ -20,5 +22,3 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
-
-//check avec tripouille apres lstadd_back
